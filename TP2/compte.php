@@ -1,7 +1,7 @@
 <?php
 class CompteBancaire {
-    public $nom;
-    public $solde;
+    private $nom;
+    private $solde;
 
     public function __construct($nom = 'Dupont', $solde = 1000) {
         $this->nom = $nom;
@@ -21,10 +21,17 @@ class CompteBancaire {
     }
 
     public function affiche() {
-        echo "Le solde du compte bancaire de $this->nom est de $this->solde euros.";
+        echo "Le solde du compte bancaire de {$this->getNom()} est de {$this->getSolde()} euros.";
+    }
+
+    public function getNom() {
+        return $this->nom;
+    }
+
+    public function getSolde() {
+        return $this->solde;
     }
 }
-
 
 
 ?>
