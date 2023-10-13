@@ -4,7 +4,7 @@ require 'class/mammifere.php';
 $requin = new Requin("Grrr", "Très grand", "Mâle", "Océan", "Prédateur");
 $requin->crier(); ?><br><?php
 $requin->nager(); ?><br><?php
-$requin->mordre(); ?><br><?php
+$requin->mordre(); ?><br><?php 
 
 $poissonRouge = new PoissonRouge("Glou glou", "Petit", "Inconnu", "Aquarium", "Animal de compagnie");
 $poissonRouge->crier(); ?><br><?php

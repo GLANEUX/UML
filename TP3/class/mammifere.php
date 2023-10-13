@@ -29,7 +29,7 @@
         echo "Chasse une proie.";
     }
 }
-
+ 
 class Chat extends Mammifere {
     protected $couleurPelage;
     protected $pattes;

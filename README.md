@@ -35,7 +35,7 @@ Le solde du compte bancaire de Duchmol est de 950 euros.
 * compte2.affiche()
 Le solde du compte bancaire de Dupont est de 1025 euros.
 
-## TP3
+## TP3 
 
 ### Sujet : 
 Définissez une classe Mammifère, qui va servir de parent pour les classes : Chat, Chien, Poisson, Poisson Rouge & Requin.

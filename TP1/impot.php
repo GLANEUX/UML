@@ -1,5 +1,5 @@
 <?php
-class Impot {
+class Impot { 
     private $name; 
     private $revenu;
     const SEUIL = 15000;

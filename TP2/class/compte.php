@@ -7,7 +7,7 @@ class CompteBancaire {
         $this->nom = $nom;
         $this->solde = $solde;
     }
-
+ 
     public function depot($montant) {
         $this->solde += $montant;
     }

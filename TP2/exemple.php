@@ -2,7 +2,7 @@
 require('compte.php'); 
 
 $compte1 = new CompteBancaire('Duchmol', 800);
-$compte1->depot(350);
+$compte1->depot(350); 
 $compte1->retrait(200);
 $compte1->affiche();
 ?><br><?php

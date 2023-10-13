@@ -1,5 +1,5 @@
 # TP2 UML
-
+ 
 ## Sujet : 
 
 Définissez une classe CompteBancaire, qui permette d'instancier des objets tels que compte1, compte2, etc. (Utilisez les règles d'encapsulation avec le contrôle d'accès.)

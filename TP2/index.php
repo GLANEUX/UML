@@ -5,7 +5,7 @@ $comptes = [
     'compte1' => new CompteBancaire('Duchmol', 800),
     'compte2' => new CompteBancaire(),
 ];
-
+ 
 if (isset($_POST['choix_compte'])) {
     $compteSelectionne = $comptes[$_POST['choix_compte']];
 }
