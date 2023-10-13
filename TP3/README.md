@@ -1,6 +1,6 @@
 # TP3 UML
 
-## Sujet : 
+## Sujet :  
 Définissez une classe Mammifère, qui va servir de parent pour les classes : Chat, Chien, Poisson, Poisson Rouge & Requin.
 
 Les classes Poisson Rouge & Requin hérite de la classe Poisson qui hérite lui-même de la classe Mammifère.
