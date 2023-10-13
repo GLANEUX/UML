@@ -1,5 +1,5 @@
 <?php
-require 'compte.php'; 
+require 'class/compte.php'; 
 
 $comptes = [
     'compte1' => new CompteBancaire('Duchmol', 800),
